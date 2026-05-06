@@ -33,7 +33,7 @@ export const menuData = {
       name: "Bone Marrow Toast",
       price: 22,
       description: "Roasted bone marrow, sourdough, pickled shallots, herb salad.",
-      image: "https://images.unsplash.com/photo-1616422285623-13ff0167c95c?auto=format&fit=crop&q=80&w=800",
+      image: "https://images.unsplash.com/photo-1598514982205-f36b96d1e8d4?auto=format&fit=crop&q=80&w=800",
       badge: "Rich",
       ingredients: ["Bone Marrow", "Sourdough", "Shallots", "Herbs"],
       allergens: ["Gluten"]
@@ -45,7 +45,7 @@ export const menuData = {
       name: "Wood-Fired Ribeye",
       price: 58,
       description: "45-day dry-aged beef, smoked salt, marrow butter, charred leeks.",
-      image: "https://images.unsplash.com/photo-1546241072-48010ad28c2c?auto=format&fit=crop&q=80&w=800",
+      image: "https://images.unsplash.com/photo-1600891964092-4316c288032e?auto=format&fit=crop&q=80&w=800",
       badge: "Signature",
       ingredients: ["Ribeye", "Smoked Salt", "Marrow Butter", "Leeks"],
       allergens: ["Dairy"]
@@ -55,7 +55,7 @@ export const menuData = {
       name: "Pan-Seared Sea Bass",
       price: 42,
       description: "Chilean sea bass, saffron risotto, asparagus, lemon foam.",
-      image: "https://images.unsplash.com/photo-1534604973900-c41ab4c5d636?auto=format&fit=crop&q=80&w=800",
+      image: "https://images.unsplash.com/photo-1467003909585-2f8a72700288?auto=format&fit=crop&q=80&w=800",
       badge: "Light",
       ingredients: ["Sea Bass", "Saffron", "Rice", "Asparagus"],
       allergens: ["Seafood", "Dairy"]

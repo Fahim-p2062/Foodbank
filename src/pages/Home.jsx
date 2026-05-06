@@ -55,7 +55,7 @@ const Home = () => {
             { src: "https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&q=80&w=400", top: "15%", left: "10%", delay: 0 },
             { src: "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&q=80&w=400", top: "60%", left: "15%", delay: 1 },
             { src: "https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&q=80&w=400", top: "20%", right: "12%", delay: 0.5 },
-            { src: "https://images.unsplash.com/photo-1546241072-48010ad28c2c?auto=format&fit=crop&q=80&w=400", top: "65%", right: "10%", delay: 1.5 },
+            { src: "https://images.unsplash.com/photo-1600891964092-4316c288032e?auto=format&fit=crop&q=80&w=400", top: "65%", right: "10%", delay: 1.5 },
           ].map((img, i) => (
             <motion.div
               key={i}

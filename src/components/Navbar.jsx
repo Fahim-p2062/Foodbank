@@ -43,7 +43,16 @@ const Navbar = () => {
     >
       <div className="container mx-auto px-6 flex items-center justify-between">
         {/* Logo */}
-        <Link to="/" className="flex items-center gap-2 group">
+        <Link 
+          to="/" 
+          onClick={(e) => {
+            if (location.pathname === '/') {
+              e.preventDefault();
+              window.scrollTo({ top: 0, behavior: 'smooth' });
+            }
+          }}
+          className="flex items-center gap-2 group"
+        >
           <Flame className="text-primary w-8 h-8 transition-transform group-hover:scale-110" />
           <span className="text-2xl font-playfair font-bold tracking-tight">
             EMBER <span className="text-primary">&</span> SALT
